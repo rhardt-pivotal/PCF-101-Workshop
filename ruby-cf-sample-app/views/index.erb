@@ -3,6 +3,7 @@
 <head>
     <title>Cloud Foundry Scale Demo</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+	<link href="css/rubydemo.css" rel="stylesheet" media="screen"/>
 </head>
 <body>
 <div class="container">
@@ -12,7 +13,7 @@
         <p>Powered by <a href="http://www.pivotal.io">Pivotal</a>!</p>
     </div>
 
-    <a href="/killSwitch" class="btn btn-danger btn-large">Kill Switch</a>
+    <a href="javascript:ajaxKill()" class="btn btn-danger btn-large">Kill Switch</a>
 
     <h2>App Instance Info: </h2>
 
@@ -32,5 +33,6 @@
 </div>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/rubydemo.js"></script>
 </body>
 </html>

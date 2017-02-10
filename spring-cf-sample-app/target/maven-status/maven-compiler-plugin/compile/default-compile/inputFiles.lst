@@ -1,0 +1,5 @@
+/Users/rhardt/work/Workshops/PCF101/PCF-101-Workshop/spring-cf-sample-app/src/main/java/io/pivotal/workshop/web/CloudFoundryWorkshopController.java
+/Users/rhardt/work/Workshops/PCF101/PCF-101-Workshop/spring-cf-sample-app/src/main/java/io/pivotal/workshop/entity/Attendee.java
+/Users/rhardt/work/Workshops/PCF101/PCF-101-Workshop/spring-cf-sample-app/src/main/java/io/pivotal/workshop/WorkshopApplication.java
+/Users/rhardt/work/Workshops/PCF101/PCF-101-Workshop/spring-cf-sample-app/src/main/java/io/pivotal/workshop/repository/AttendeeRepository.java
+/Users/rhardt/work/Workshops/PCF101/PCF-101-Workshop/spring-cf-sample-app/src/main/java/io/pivotal/workshop/web/DataInitializer.java
