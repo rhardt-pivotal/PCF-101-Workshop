@@ -29,6 +29,7 @@ public class CloudFoundryWorkshopController {
 	@Autowired
 	private AttendeeRepository attendeeRepository;
 
+
 	/**
 	 * Gets basic environment information.  This is the application's
 	 * default action.

@@ -8,6 +8,8 @@
   set :requests, 0
   set :bind, '0.0.0.0'
 
+  ev = JSON.pretty_generate(ENV.to_hash)
+
   get '/' do
      settings.requests += 1
      app_info = ENV['VCAP_APPLICATION'] ? JSON.parse(ENV['VCAP_APPLICATION']) : Hash.new
@@ -18,6 +20,8 @@
      ENV['APP_IP'] = IPSocket.getaddress(Socket.gethostname)
      ENV['APP_PORT'] = app_info["port"].to_s
      ENV['SERVICE_JSON'] = JSON.pretty_generate(JSON.parse(ENV['VCAP_SERVICES']))
+     ENV['ENV_DUMP'] = ev
+     print('This is a custom log message')  
      erb :'index'
   end
 

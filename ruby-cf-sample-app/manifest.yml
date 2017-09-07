@@ -1,7 +1,6 @@
 ---
 applications:
-- name: ruby-demo
-  memory: 128M
+- name: ruby-demo-emc
+  memory: 1G
   instances: 1
-  host: ruby-demo-nbcu
   path: .

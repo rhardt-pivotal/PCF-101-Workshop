@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/PCF-101-Workshop-NBCUWest.iml" filepath="$PROJECT_DIR$/.idea/PCF-101-Workshop-NBCUWest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cf-sample-app/spring-cf-sample-app.iml" filepath="$PROJECT_DIR$/spring-cf-sample-app/spring-cf-sample-app.iml" />
     </modules>
   </component>
 </project>
