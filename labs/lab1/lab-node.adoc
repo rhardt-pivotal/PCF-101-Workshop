@@ -12,6 +12,12 @@
 $ cd $BOOTCAMP_HOME/nodejs-cf-sample-app
 ----
 
+. Vendor the NodeJS Dependencies
++
+----
+$ npm install
+----
+
 . Push the application!
 +
 ----
@@ -230,4 +236,4 @@ $ cf delete <<app_name>>
 ----
 
 == On to the next Lab!
-link:lab-dotnet.adoc[Lab1 - Push a DotNet Application]
+link:../../labs/lab2/README.adoc[Lab2 - Binding to Cloud Foundry Services]

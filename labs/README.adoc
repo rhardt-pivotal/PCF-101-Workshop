@@ -11,16 +11,7 @@
 . Login to Pivotal Cloudfoundry:
 +
 ----
-$ cf login -a https://api.devcloudwest.inbcu.com
-----
-+
-Follow the prompts.  If prompted for an Org or a Space, select `OpenPlatform` and `ssotest` respectively.
-Please note, that if you are prompted for an email, enter your SSO id, not your email (misleading).
-+
-. If you don't get prompted for an email/password or have other problems, you can also try:
-+
-----
-$ cf login -a https://api.devcloudwest.inbcu.com -u <NBCU SSO> -p <password>
+$ cf login -a https://api.system.runitinthecloudfor.me
 ----
 +
 
@@ -29,8 +20,8 @@ $ cf login -a https://api.devcloudwest.inbcu.com -u <NBCU SSO> -p <password>
 
 . An alternative to installing the CF CLI is via your PCF Apps Manager interface.
 
-. Navigate in a web browser to https://apps.devcloudwest.inbcu.com
+. Navigate in a web browser to https://apps.system.runitinthecloudfor.me
 
-. Login to the interface with your SSO id and password.
+. Login to the interface with your id and password.
 
 . Click the 'Tools' link, and download the CLI matching your operating system
