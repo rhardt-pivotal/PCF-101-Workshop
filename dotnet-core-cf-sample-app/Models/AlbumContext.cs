@@ -8,6 +8,7 @@ using springmusicdotnetcore.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
+using Newtonsoft.Json;
 namespace springmusicdotnetcore.Models
 {
     public class AlbumContext : DbContext
@@ -22,6 +23,24 @@ namespace springmusicdotnetcore.Models
                 catch(Exception){
                     ((RelationalDatabaseCreator)Database.GetService<IDatabaseCreator>()).CreateTables();
                 }
+            }
+            loadAlbums();
+        }
+
+        private void loadAlbums()
+        {
+            if (Albums.Count() > 0) {
+                return;
+            }
+            using (StreamReader r = new StreamReader("albums.json"))
+            {
+                string json = r.ReadToEnd();
+                List<Album> albums = JsonConvert.DeserializeObject<List<Album>>(json);
+                foreach (Album a in albums)
+                {
+                    Albums.Add(a);
+                }
+                SaveChanges();
             }
         }
 

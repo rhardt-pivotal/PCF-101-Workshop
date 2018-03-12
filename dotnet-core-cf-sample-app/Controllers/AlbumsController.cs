@@ -5,7 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using springmusicdotnetcore.Models;
-using Newtonsoft.Json;
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -19,21 +19,6 @@ namespace springmusicdotnetcore.Controllers
 
         public AlbumsController(AlbumContext context){
             _context = context;
-            if(_context.Albums.Count() == 0){
-                loadAlbums();
-            }
-        }
-
-        private void loadAlbums() {
-            using (StreamReader r = new StreamReader("albums.json"))
-            {
-                string json = r.ReadToEnd();
-                List<Album> albums = JsonConvert.DeserializeObject<List<Album>>(json);
-                foreach (Album a in albums) {
-                    _context.Albums.Add(a);
-                }
-                _context.SaveChanges();
-            }
         }
 
         // GET: api/albums
