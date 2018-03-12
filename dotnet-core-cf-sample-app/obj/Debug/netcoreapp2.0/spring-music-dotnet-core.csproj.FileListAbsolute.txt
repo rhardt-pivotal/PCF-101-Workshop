@@ -1,0 +1,11 @@
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/bin/Debug/netcoreapp2.0/spring-music-dotnet-core.deps.json
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/bin/Debug/netcoreapp2.0/spring-music-dotnet-core.runtimeconfig.json
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/bin/Debug/netcoreapp2.0/spring-music-dotnet-core.runtimeconfig.dev.json
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/bin/Debug/netcoreapp2.0/spring-music-dotnet-core.dll
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/bin/Debug/netcoreapp2.0/spring-music-dotnet-core.pdb
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/obj/Debug/netcoreapp2.0/spring-music-dotnet-core.csprojResolveAssemblyReference.cache
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/obj/Debug/netcoreapp2.0/spring-music-dotnet-core.csproj.CoreCompileInputs.cache
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/obj/Debug/netcoreapp2.0/spring-music-dotnet-core.AssemblyInfoInputs.cache
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/obj/Debug/netcoreapp2.0/spring-music-dotnet-core.AssemblyInfo.cs
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/obj/Debug/netcoreapp2.0/spring-music-dotnet-core.dll
+/Users/rhardt/Projects/spring-music-dotnet-core/spring-music-dotnet-core/obj/Debug/netcoreapp2.0/spring-music-dotnet-core.pdb

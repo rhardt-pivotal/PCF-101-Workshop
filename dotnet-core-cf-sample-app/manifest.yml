@@ -1,0 +1,11 @@
+---
+applications:
+- name: dotnet-core-music
+  random-route: true
+  memory: 1G
+  buildpack:  dotnet_core_buildpack
+  instances: 1
+  path: .
+  services:
+  - music-db
+
