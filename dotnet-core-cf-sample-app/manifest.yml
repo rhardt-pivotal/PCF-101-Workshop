@@ -6,6 +6,4 @@ applications:
   buildpack:  dotnet_core_buildpack
   instances: 1
   path: .
-  services:
-  - music-db
 

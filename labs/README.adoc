@@ -11,7 +11,7 @@
 . Login to Pivotal Cloudfoundry:
 +
 ----
-$ cf login -a https://api.system.runitinthecloudfor.me
+$ cf login -a https://api.run.pivotal.io
 ----
 +
 
@@ -20,7 +20,9 @@ $ cf login -a https://api.system.runitinthecloudfor.me
 
 . An alternative to installing the CF CLI is via your PCF Apps Manager interface.
 
-. Navigate in a web browser to https://apps.system.runitinthecloudfor.me
+. Navigate in a web browser to https://run.pivotal.io
+
+. If you haven't already done so, create an account. 
 
 . Login to the interface with your id and password.
 
